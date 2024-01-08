@@ -46,7 +46,7 @@ html,
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: Cairo;
+  font-family: cairo-regular;
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -544,46 +544,8 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.container {
-  width: 100%;
-}
-
-@media (min-width: 640px) {
-  .container {
-    max-width: 640px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .container {
-    max-width: 1024px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-  }
-}
-
-@media (min-width: 1536px) {
-  .container {
-    max-width: 1536px;
-  }
-}
-
-.table {
-  display: table;
-}
-
 .font-sans {
-  font-family: Cairo;
+  font-family: cairo-regular;
 }
 
 .text-3xl {
@@ -618,10 +580,10 @@ video {
 }
 
 @font-face {
-  font-family: 'cairoregular';
+  font-family: 'cairo-regular';
 
-  src: url('cairo-regular-webfont.woff2') format('woff2'),
-         url('cairo-regular-webfont.woff') format('woff');
+  src: url('./css/cairo-regular-webfont.woff2') format('woff2'),
+         url('./css/cairo-regular-webfont.woff') format('woff');
 
   font-weight: normal;
 

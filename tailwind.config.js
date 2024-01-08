@@ -1,10 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./css/**/*.{html,js,ttf}","./**/*.html","./src/**/*.{html,js}"],
+  content: ["./css/**/*.{html,js,ttf,woff2,woff}","./**/*.html","./src/**/*.{html,js}"],
   theme: {
     extend: {},
     fontFamily: {
-      sans:['Cairo'],
+      sans:['cairo-regular'],
     },
   },
   plugins: [],
