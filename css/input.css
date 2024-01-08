@@ -3,4 +3,10 @@
 @tailwind utilities;
 
 @font-face { font-family: 'Cairo'; font-weight: bold; src: url('./css/Cairo-Bold.ttf'); }
-@font-face { font-family: 'Cairo'; font-weight: normal; src: url('./css/Cairo-Regular.ttf'); } 
+@font-face {
+    font-family: 'cairoregular';
+    src: url('cairo-regular-webfont.woff2') format('woff2'),
+         url('cairo-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
