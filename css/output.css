@@ -545,7 +545,7 @@ video {
 }
 
 .font-sans {
-  font-family: Cairo;
+  font-family: 'Cairo';
 }
 
 .text-3xl {
