@@ -564,7 +564,7 @@ video {
 }
 
 @font-face {
-  font-family: Cairo;
+  font-family: 'Cairo';
 
   font-weight: bold;
 
@@ -572,7 +572,7 @@ video {
 }
 
 @font-face {
-  font-family: Cairo;
+  font-family: 'Cairo';
 
   font-weight: normal;
 
