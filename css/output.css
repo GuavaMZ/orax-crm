@@ -568,7 +568,7 @@ video {
 
   font-weight: bold;
 
-  src: url('./css/Cairo-Bold.ttf');
+  src: url('/css/Cairo-Bold.ttf');
 }
 
 @font-face {
@@ -576,5 +576,5 @@ video {
 
   font-weight: normal;
 
-  src: url('./css/Cairo-Regular.ttf');
+  src: url('/css/Cairo-Regular.ttf');
 } 
