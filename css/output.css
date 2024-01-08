@@ -46,7 +46,7 @@ html,
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: cairo-regular;
+  font-family: Cairo;
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -545,7 +545,7 @@ video {
 }
 
 .font-sans {
-  font-family: cairo-regular;
+  font-family: Cairo;
 }
 
 .text-3xl {
@@ -576,17 +576,13 @@ video {
 
   font-weight: bold;
 
-  src: url('./css/Cairo-Bold.ttf');
+  src: url('./css/Cairo-Bold.ttf'),url('https://guavamz.github.io/css/Cairo-Bold.ttf');
 }
 
 @font-face {
-  font-family: 'cairo-regular';
-
-  src: url("https://guavamz.github.io/css/cairo-regular-webfont.woff2") format('woff2'),
-        /* url('/css/Cairo-Regular.ttf') format('ttf'), */
-         url("https://guavamz.github.io/css/cairo-regular-webfont.woff") format('woff');
+  font-family: 'Cairo';
 
   font-weight: normal;
 
-  font-style: normal;
-}
+  src: url('./css/Cairo-Regular.ttf'),url('https://guavamz.github.io/css/Cairo-Regular.ttf');
+} 

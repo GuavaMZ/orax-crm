@@ -2,11 +2,5 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face { font-family: 'Cairo'; font-weight: bold; src: url('./css/Cairo-Bold.ttf'); }
-@font-face {
-    font-family: 'cairo-regular';
-    src: url('./css/cairo-regular-webfont.woff2') format('woff2'),
-         url('./css/cairo-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+@font-face { font-family: 'Cairo'; font-weight: bold; src: url('./css/Cairo-Bold.ttf'),url('https://guavamz.github.io/css/Cairo-Bold.ttf'); }
+@font-face { font-family: 'Cairo'; font-weight: normal; src: url('./css/Cairo-Regular.ttf'),url('https://guavamz.github.io/css/Cairo-Regular.ttf'); } 
