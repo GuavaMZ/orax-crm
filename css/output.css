@@ -545,12 +545,16 @@ video {
 }
 
 .font-sans {
-  font-family: 'Cairo';
+  font-family: Cairo;
 }
 
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .underline {
@@ -568,7 +572,7 @@ video {
 
   font-weight: bold;
 
-  src: url('/css/Cairo-Bold.ttf');
+  src: url('./css/Cairo-Bold.ttf');
 }
 
 @font-face {
@@ -576,5 +580,5 @@ video {
 
   font-weight: normal;
 
-  src: url('/css/Cairo-Regular.ttf');
+  src: url('./css/Cairo-Regular.ttf');
 } 
