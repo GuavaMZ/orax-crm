@@ -576,8 +576,8 @@ video {
 
   font-weight: bold;
 
-  src: 
-    url('https://guavamz.github.io/css/Cairo-Bold.ttf');
+  src:
+        url('https://guavamz.github.io/css/Cairo-Bold.ttf');
 }
 
 @font-face {
@@ -585,5 +585,5 @@ video {
 
   font-weight: normal;
 
-  src: url('css/cairo-regular-webfont.woff'),url('css/cairo-regular-webfont.woff2');
-} 
+  src: url('css/cairo-regular-webfont.woff'), url('css/cairo-regular-webfont.woff2'), url('https://guavamz.github.io/css/cairo-regular-webfont.woff2'), url('https://guavamz.github.io/css/cairo-regular-webfont.woff');
+}
