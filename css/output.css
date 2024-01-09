@@ -544,12 +544,8 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.font-cairo {
-  font-family: Cairo-Bold;
-}
-
-.font-cairoBold {
-  font-family: Cairo-Regular;
+.font-poppins {
+  font-family: Poppins;
 }
 
 .text-3xl {
@@ -559,10 +555,6 @@ video {
 
 .font-bold {
   font-weight: 700;
-}
-
-.font-normal {
-  font-weight: 400;
 }
 
 .underline {
@@ -575,19 +567,29 @@ video {
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
 
-@font-face {
-  font-family: 'Cairo-Bold';
-
-  font-weight: bold;
-
-  src:
+/* @font-face {
+    font-family: 'Cairo-Bold';
+    font-weight: bold;
+    src:
         url('https://guavamz.github.io/css/Cairo-Bold.ttf');
-}
+} */
 
 @font-face {
-  font-family: 'Cairo-Regular';
+  font-family: 'Poppins';
 
   font-weight: normal;
 
-  src: url('https://guavamz.github.io/css/Cairo-Regular.ttf');
+  /* src: url('https://guavamz.github.io/css/Cairo-Regular.ttf'); */
+
+  src: url('/css/Poppins-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins';
+
+  font-weight: bold;
+
+  /* src: url('https://guavamz.github.io/css/Cairo-Regular.ttf'); */
+
+  src: url('/css/Poppins-Bold.ttf');
 }

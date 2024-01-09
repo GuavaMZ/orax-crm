@@ -2,15 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
+/* @font-face {
     font-family: 'Cairo-Bold';
     font-weight: bold;
     src:
         url('https://guavamz.github.io/css/Cairo-Bold.ttf');
+} */
+
+@font-face {
+    font-family: 'Poppins';
+    font-weight: normal;
+    /* src: url('https://guavamz.github.io/css/Cairo-Regular.ttf'); */
+    src: url('/css/Poppins-Regular.ttf');
 }
 
 @font-face {
-    font-family: 'Cairo-Regular';
-    font-weight: normal;
-    src: url('https://guavamz.github.io/css/Cairo-Regular.ttf');
+    font-family: 'Poppins';
+    font-weight: bold;
+    /* src: url('https://guavamz.github.io/css/Cairo-Regular.ttf'); */
+    src: url('/css/Poppins-Bold.ttf');
 }

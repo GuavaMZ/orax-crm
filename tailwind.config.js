@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      cairo:['Cairo-Bold'],
-      cairoBold:['Cairo-Regular']
+      poppins:['Poppins'],
+      // cairoBold:['Cairo-Regular']
     },
   },
   plugins: [],
