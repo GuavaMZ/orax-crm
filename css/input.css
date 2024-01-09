@@ -3,15 +3,14 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'Cairo';
+    font-family: 'Cairo-Bold';
     font-weight: bold;
     src:
         url('https://guavamz.github.io/css/Cairo-Bold.ttf');
 }
 
 @font-face {
-    font-family: 'Cairo';
+    font-family: 'Cairo-Regular';
     font-weight: normal;
-    /* src: url('css/cairo-regular-webfont.woff'), url('css/cairo-regular-webfont.woff2'),url('css/Cairo-Regular.ttf'); */
     src: url('https://guavamz.github.io/css/Cairo-Regular.ttf');
 }

@@ -46,7 +46,7 @@ html,
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: Cairo;
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -544,8 +544,12 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.font-sans {
-  font-family: Cairo;
+.font-cairo {
+  font-family: Cairo-Bold;
+}
+
+.font-cairoBold {
+  font-family: Cairo-Regular;
 }
 
 .text-3xl {
@@ -572,7 +576,7 @@ video {
 }
 
 @font-face {
-  font-family: 'Cairo';
+  font-family: 'Cairo-Bold';
 
   font-weight: bold;
 
@@ -581,11 +585,9 @@ video {
 }
 
 @font-face {
-  font-family: 'Cairo';
+  font-family: 'Cairo-Regular';
 
   font-weight: normal;
-
-  /* src: url('css/cairo-regular-webfont.woff'), url('css/cairo-regular-webfont.woff2'),url('css/Cairo-Regular.ttf'); */
 
   src: url('https://guavamz.github.io/css/Cairo-Regular.ttf');
 }
