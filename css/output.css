@@ -585,6 +585,5 @@ video {
 
   font-weight: normal;
 
-  src:
-    url('https://guavamz.github.io/css/Cairo-Regular.ttf');
+  src: url('css/cairo-regular-webfont.woff'),url('css/cairo-regular-webfont.woff2');
 } 

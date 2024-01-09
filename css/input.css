@@ -4,5 +4,4 @@
 
 @font-face { font-family: 'Cairo'; font-weight: bold; src: 
     url('https://guavamz.github.io/css/Cairo-Bold.ttf'); }
-@font-face { font-family: 'Cairo'; font-weight: normal; src:
-    url('https://guavamz.github.io/css/Cairo-Regular.ttf'); } 
+@font-face { font-family: 'Cairo'; font-weight: normal; src: url('css/cairo-regular-webfont.woff'),url('css/cairo-regular-webfont.woff2'); } 
