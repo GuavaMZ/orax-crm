@@ -22,3 +22,9 @@
     /* src: url('https://guavamz.github.io/css/Cairo-Regular.ttf'); */
     src: url('/css/Poppins-Bold.ttf');
 }
+
+@font-face {
+    font-family: 'Cairo';
+    /* font-weight: bold; */
+    src: url('/css/Cairo.ttf');
+}

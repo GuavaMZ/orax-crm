@@ -548,13 +548,13 @@ video {
   font-family: Poppins;
 }
 
+.font-cairo {
+  font-family: Cairo;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
-}
-
-.font-bold {
-  font-weight: 700;
 }
 
 .underline {
@@ -592,4 +592,12 @@ video {
   /* src: url('https://guavamz.github.io/css/Cairo-Regular.ttf'); */
 
   src: url('/css/Poppins-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Cairo';
+
+  /* font-weight: bold; */
+
+  src: url('/css/Cairo.ttf');
 }
