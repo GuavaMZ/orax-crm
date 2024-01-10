@@ -672,4 +672,8 @@ video {
   .max-sm\:w-0 {
     width: 0px;
   }
+
+  .max-sm\:w-screen {
+    width: 100vw;
+  }
 }
