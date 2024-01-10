@@ -544,12 +544,116 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.font-poppins {
-  font-family: Poppins;
+.container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.h-\[681px\] {
+  height: 681px;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+.w-\[532px\] {
+  width: 532px;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.self-center {
+  align-self: center;
+}
+
+.rounded-tl-\[100px\] {
+  border-top-left-radius: 100px;
+}
+
+.rounded-br-\[100px\] {
+  border-bottom-right-radius: 100px;
+}
+
+.bg-sky-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(7 89 133 / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .font-cairo {
   font-family: Cairo;
+}
+
+.font-poppins {
+  font-family: Poppins;
 }
 
 .text-3xl {
@@ -559,10 +663,6 @@ video {
 
 .font-bold {
   font-weight: 700;
-}
-
-.underline {
-  text-decoration-line: underline;
 }
 
 .ring {
@@ -604,4 +704,14 @@ video {
   /* font-weight: bold; */
 
   src: url('/css/Cairo.ttf');
+}
+
+@media (min-width: 640px) {
+  .sm\:w-screen {
+    width: 100vw;
+  }
+
+  .sm\:w-0 {
+    width: 0px;
+  }
 }
