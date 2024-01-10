@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" dir="ltr">
+  <link href="/css/output.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class=" w-screen h-screen flex flex-col justify-center font-cairo">
+    <div class="flex flex-row">
+
+      <!-- The Blue Side -->
+      <div
+        class="w-1/2 max-sm:w-screen h-screen bg-sky-800 flex justify-start items-center max-sm:items-start max-sm:justify-center">
+        <div
+          class="w-[532px] h-[681px] bg-white rounded-br-[100px] max-sm:rounded-tr-[30px] max-sm:rounded-bl-[30px] max-sm:rounded-br-[0] max-sm:mt-9 max-sm:w-11/12">
+
+        </div>
+      </div>
+            <!-- The White Side -->
+            <div class="w-1/2 max-sm:w-0 h-screen bg-white flex justify-end items-center">
+              <div class="w-[532px] h-[681px] bg-sky-800 rounded-tl-[100px] justify-start items-center flex-col flex">
+                <!-- Sign in Text -->
+                <p class="text-white text-[25px] font-bold mt-24">تسجيل الدخول</p>
+                <!-- Email Text Input -->
+                <div class="w-3/4 h-14 inline-flex justify-end items-center mt-20">
+                  <input type="text" id="user-email" dir="rtl" placeholder="البريد الإلكتروني"
+                    class="outline-none placeholder-sky-700 placeholder-opacity-30 text-base
+                  flex w-full h-16 bg-white rounded-[50px] pr-12 font-semibold focus:border-red-500 focus:border-4 shadow-md">
+      
+                  <img src="/assets/mail.svg" alt="email" class="absolute w-11 h11 pr-5">
+                </div>
+                <!-- Password TextInput -->
+                <div class="w-3/4 h-14 inline-flex justify-end items-center mt-14">
+                  <input type="password" id="user-password" dir="rtl" placeholder="كلمة السر"
+                    class="outline-none placeholder-sky-700  placeholder-opacity-30 text-base
+                  flex w-full h-16 bg-white rounded-[50px] pr-12 font-semibold justify-end items-center focus:border-red-500 focus:border-4 shadow-md">
+                  
+                  <img src="/assets/password.svg" alt="password" class="absolute w-11 h11 pr-5">
+                </div>
+                <!-- Sign In Button -->
+                <div class="w-2/4 h-16 mt-12 bg-white rounded-full">
+                  <button  class="w-full h-full hover:bg-sky-800">
+                    <p class="w-auto h-16 text-sky-800 text-[20px] font-bold text-center hover:text-white items-center flex justify-center">تسجيل الدخول</p>
+                  </button>
+                </div>
+                <div class="mt-12">
+                  <button>
+                    <p class="text-white text-base font-medium text-center hover:text-white items-center flex justify-center">هل نسيت كلمة السر؟</p>
+                  </button>
+                </div>
+              </div>
+            </div>
+    </div>
+</body>
+
+</html>
